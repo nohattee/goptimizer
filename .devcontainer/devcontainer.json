@@ -1,0 +1,11 @@
+{
+    "name": "goptimizer",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "golang.go",
+        "ms-vscode.makefile-tools"
+    ]
+}
